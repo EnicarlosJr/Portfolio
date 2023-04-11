@@ -522,7 +522,7 @@ footer {
 }
 
 .contact .contact-content .row {
-    display: block;
+    display: flex;
     height: 65px;
     align-items: center;
 }
