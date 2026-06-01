@@ -14,9 +14,11 @@ export default function About() {
         <div className="panel p-5">
           <h3 className="text-xl font-semibold text-white">Resumo profissional</h3>
           <p className="mt-4 text-sm leading-7 text-slate-300">
-            Formado em Sistemas de Informacao pela UFVJM, com experiencia em desenvolvimento web, interfaces
-            responsivas, relatorios e solucoes para saude e educacao digital. O foco recomendado para 2026 e vender
-            menos "sei varias tecnologias" e mais "entrego sistemas web com dados, backend e clareza operacional".
+             Formado em Sistemas de Informação, com experiência em desenvolvimento web, criação de 
+            interfaces responsivas e desenvolvimento de soluções voltadas à área da saúde e educação digital. Conhecimentos em 
+            back-end com Python/Django e desenvolvimento front-end com React, JavaScript e tecnologias web modernas. Atuação em 
+            projetos acadêmicos e corporativos utilizando metodologias ágeis, integração de sistemas e construção de dashboards 
+            interativos.
           </p>
         </div>
         <div className="panel p-5">
