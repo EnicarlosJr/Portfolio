@@ -138,7 +138,7 @@ export const projects = [
       'Autenticação e controle de acesso granular: pacientes, clínicos, administrativos.',
     ],
     nextSteps: ['Testes automatizados com pytest', 'Docker Compose para reproducibilidade', 'CI/CD pipeline', 'Deploy documentado'],
-    repository: 'https://github.com/EnicarlosJr/FarmaciaEscola',
+    repository: 'https://github.com/EnicarlosJr/TCC',
     tcc: {
       title: 'Trabalho de Conclusão de Curso (TCC)',
       description: 'DESENVOLVIMENTO DE UMA SOLUÇÃO WEB PARA A FARMÁCIA ESCOLA DA UFVJM',
