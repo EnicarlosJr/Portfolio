@@ -48,8 +48,8 @@ export default function RecruiterMode() {
 
       <section className="panel p-5">
         <h3 className="text-xl font-semibold text-white">Projeto principal para avaliar</h3>
-        <p className="mt-3 text-sm leading-6 text-slate-300">{projects.find((project) => project.id === 'decom')?.summary || projects[0].summary}</p>
-        <Link to="/projects/decom" className="focus-ring mt-5 inline-flex rounded-full bg-primary px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300">
+        <p className="mt-3 text-sm leading-6 text-slate-300">{projects.find((project) => project.id === 'farmacia')?.summary || projects[0].summary}</p>
+        <Link to="/projects/farmacia" className="focus-ring mt-5 inline-flex rounded-full bg-primary px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300">
           Abrir case completo
         </Link>
       </section>
