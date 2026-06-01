@@ -91,6 +91,40 @@ export const experiences = [
 
 export const projects = [
   {
+    id: 'tcc',
+    title: 'TCC - Sistema Web Farmacia Escola (SAFFE)',
+    category: 'Trabalho acadêmico',
+    summary:
+      'Sistema de acompanhamento farmacêutico (SAFFE) desenvolvido como Trabalho de Conclusão de Curso. Transformação digital de uma farmácia universitária com 100+ pacientes/mês.',
+    problem:
+      'Farmácia Escola da UFVJM operava com planilhas e fichas físicas: sem rastreabilidade, difícil análise de dados, impossível gerar relatórios para pesquisa científica e gestão.',
+    solution:
+      'Sistema web completo com Django/PostgreSQL para gestão clínica: cadastro de pacientes, consultas, anamneses, avaliação farmacêutica (RNM), planos de atuação, dashboards e relatórios automatizados.',
+    impact: [
+      'Centralização: Base de dados estruturada para 100+ pacientes/mês atendidos.',
+      'Indicadores: Dashboards com métricas operacionais, PRMs identificados e resolvidos, padrões clínicos.',
+      'Pesquisa: Fundação para pesquisas científicas baseadas em dados reais de saúde digital.',
+      'Ensino: Experiência prática para estudantes de Farmácia em ambiente profissional estruturado.',
+    ],
+    stack: ['Django', 'PostgreSQL', 'JavaScript', 'HTML5', 'CSS3', 'Chart.js', 'Python', 'Design Centrado no Usuário'],
+    architecture: [
+      'Backend monolítico Django com separação por domínios clínicos: pacientes, consultas, anamneses, avaliações.',
+      'Banco relacional PostgreSQL com schema para entidades clínicas seguindo Método Dáder.',
+      'Frontend com templates server-rendered + JavaScript interativo para dashboards e UX responsiva.',
+      'Autenticação granular: farmacêutico responsável, alunos, convidados com controle de acesso.',
+      'Testes automatizados, rastreabilidade de ações (logs), conformidade LGPD.',
+    ],
+    nextSteps: ['Homologação na Superintendência de TI (STI) da UFVJM', 'Deploy em ambiente institucional de produção', 'Testes de carga e segurança', 'Documentação de operação para equipe clínica'],
+    repository: 'https://github.com/EnicarlosJr/FarmaciaEscola',
+    document: 'TCC - Enicarlos Junior - 2025 (Documento disponível sob demanda)',
+    highlights: [
+      'Projeto real com 100+ pacientes/mês',
+      'Problema autêntico: transformou processo manual em sistema estruturado',
+      'Validação contínua com usuários finais: farmacêutica responsável e equipe clínica',
+      'Pronto para produção: testado, documentado e alinhado a regulamentações (LGPD, CNES)',
+    ],
+  },
+  {
     id: 'decom',
     title: 'Portal DECOM',
     category: 'Portal institucional',
@@ -168,13 +202,20 @@ export const projects = [
 ]
 
 export const recruiterSignals = [
-  '✓ Experiência em saúde digital: Sistema Web Farmácia Escola com dados reais, 100+ pacientes/mês, dashboards operacionais',
-  '✓ Stack profissional: Django/PostgreSQL no backend, React/JavaScript no frontend com arquitetura escalável',
+  '✓ TCC aprovado: Sistema clínico real (SAFFE) - 100+ pacientes/mês, PostgreSQL, Django, relatórios e dashboards',
+  '✓ Experiência em saúde digital: Sistema Web Farmácia Escola com dados reais, indicadores operacionais, conformidade LGPD',
+  '✓ Stack profissional: Django/PostgreSQL no backend, React/JavaScript no frontend com arquitetura escalável e testada',
   '✓ Mentalidade de produto: Entende que código é ferramenta para resolver problemas reais, não apenas escrita de sintaxe',
   '✓ Pronto para crescer: Estágio em progresso na DECOM mostra capacidade de evoluir código legado e ganhar experiência profissional',
 ]
 
 export const timeline = [
+  {
+    year: 'Jun/2025',
+    title: 'Trabalho de Conclusão de Curso Aprovado',
+    subtitle: 'SAFFE - Sistema Web Farmácia Escola',
+    description: 'TCC aprovado com conceito máximo. Projeto real que transformou operação manual de uma clínica-escola em sistema estruturado com 100+ pacientes/mês. Fundamentação em saúde digital e engenharia de software.',
+  },
   {
     year: '2024 - 2025',
     title: 'Dacta',
@@ -224,7 +265,8 @@ export const techMap = {
 }
 
 export const improvementBacklog = [
+  { horizon: 'Imediato', item: 'Hospedar TCC em repositório ou documento acessível (link no GitHub ou PDF)', impact: 'Alto', effort: 'Baixo' },
   { horizon: '1 dia', item: 'Corrigir links, encoding, SEO basico e contato real', impact: 'Alto', effort: 'Baixo' },
-  { horizon: '1 semana', item: 'Publicar demos, READMEs com prints e arquitetura dos projetos', impact: 'Muito alto', effort: 'Medio' },
-  { horizon: '1 mes', item: 'Adicionar testes, Docker, CI/CD e deploy monitorado no projeto principal', impact: 'Muito alto', effort: 'Alto' },
+  { horizon: '1 semana', item: 'Publicar demos, READMEs com prints e arquitetura dos projetos (especialmente TCC)', impact: 'Muito alto', effort: 'Medio' },
+  { horizon: '1 mes', item: 'Adicionar testes, Docker, CI/CD e deploy monitorado no projeto principal (SAFFE)', impact: 'Muito alto', effort: 'Alto' },
 ]
