@@ -30,6 +30,20 @@ export default function ProjectDetail() {
         </a>
       )}
 
+      {project.tcc && (
+        <div className="panel p-5 border-l-4 border-blue-500">
+          <p className="eyebrow text-blue-300">Trabalho de Conclusão de Curso</p>
+          <h4 className="mt-2 text-base font-semibold text-white">{project.tcc.title}</h4>
+          <p className="mt-1 text-sm text-slate-400">{project.tcc.description}</p>
+          <p className="mt-2 text-sm font-medium text-slate-300">Status: <span className="text-emerald-400">{project.tcc.status}</span></p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {project.tcc.keywords.map((keyword) => (
+              <span key={keyword} className="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">{keyword}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="grid gap-4 lg:grid-cols-3">
         <div className="panel p-5">
           <p className="eyebrow">Problema</p>
