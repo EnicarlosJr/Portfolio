@@ -5,7 +5,7 @@ import MetricGrid from '../components/MetricGrid'
 import ProjectCard from '../components/ProjectCard'
 import SectionHeader from '../components/SectionHeader'
 import TechGraph from '../components/TechGraph'
-import { improvementBacklog, projects, recruiterSignals, stackGroups } from '../data/profile'
+import { projects, recruiterSignals, stackGroups } from '../data/profile'
 import { CheckCircle2, ArrowRight } from 'lucide-react'
 
 export default function Home() {
@@ -102,39 +102,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stack e backlog */}
-      <section className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
-        <div className="space-y-5">
-          <SectionHeader kicker="Stack alvo" title="Competencias posicionadas para 2026">
-            Menos lista solta de tecnologias, mais agrupamento por valor para empresas: backend, produto, dados e entrega.
-          </SectionHeader>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {stackGroups.map((group) => (
-              <div key={group.title} className="panel p-4">
-                <h3 className="font-semibold text-white">{group.title}</h3>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {group.skills.map((skill) => (
-                    <span key={skill} className="tag">{skill}</span>
-                  ))}
-                </div>
+      {/* Stack */}
+      <section className="space-y-5">
+        <SectionHeader kicker="Stack alvo" title="Competencias posicionadas para 2026">
+          Menos lista solta de tecnologias, mais agrupamento por valor para empresas: backend, produto, dados e entrega.
+        </SectionHeader>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {stackGroups.map((group) => (
+            <div key={group.title} className="panel p-4">
+              <h3 className="font-semibold text-white">{group.title}</h3>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {group.skills.map((skill) => (
+                  <span key={skill} className="tag">{skill}</span>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-        <div className="space-y-5">
-          <SectionHeader kicker="Backlog publico" title="Melhorias que aumentam empregabilidade" />
-          <div className="grid gap-3">
-            {improvementBacklog.map((item) => (
-              <div key={item.item} className="panel p-4">
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-sm font-semibold text-white">{item.horizon}</p>
-                  <span className="tag">Impacto {item.impact}</span>
-                </div>
-                <p className="mt-3 text-sm leading-6 text-slate-300">{item.item}</p>
-                <p className="mt-2 text-xs uppercase tracking-widest text-slate-500">Dificuldade: {item.effort}</p>
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -142,4 +125,5 @@ export default function Home() {
     </section>
   )
 }
+
 
