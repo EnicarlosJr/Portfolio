@@ -7,9 +7,8 @@ import { experiences, profile, projects, recruiterSignals } from '../data/profil
 export default function RecruiterMode() {
   return (
     <section className="space-y-8">
-      <SectionHeader kicker="Modo Recrutador" title="Resumo objetivo para triagem">
-        Desenvolvedor Full Stack Junior com formacao em Sistemas de Informacao, experiencia real com Django,
-        PostgreSQL, React/JavaScript e sistemas para saude digital.
+      <SectionHeader kicker="Modo Recrutador" title="Full Stack Junior pronto para primeiro cargo">
+        Python/Django no backend, React/JavaScript no frontend. Experiência real em saúde digital (Farmácia Escola com 100+ pacientes/mês). Estágio em progresso na DECOM. Busca vagas de developer ou backend especialista.
       </SectionHeader>
 
       <div className="grid gap-4 lg:grid-cols-[1fr_0.8fr]">

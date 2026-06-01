@@ -50,12 +50,12 @@ export default function Hero() {
           <div className="flex items-center justify-between border-b border-white/10 pb-3">
             <div>
               <p className="text-xs uppercase tracking-widest text-slate-400">Case principal</p>
-              <p className="mt-1 font-semibold text-white">Portal DECOM</p>
+              <p className="mt-1 font-semibold text-white">Farmacia Escola</p>
             </div>
             <span className="rounded-full bg-emerald-400/15 px-3 py-1 text-xs font-semibold text-emerald-200">Django</span>
           </div>
           <div className="mt-5 grid grid-cols-3 gap-3">
-            {['Convites', 'Login', 'Landing'].map((item) => (
+            {['Pacientes', 'Consultas', 'Dashboards'].map((item) => (
               <div key={item} className="surface p-3">
                 <div className="h-1.5 rounded-full bg-emerald-300" />
                 <p className="mt-3 text-xs text-slate-300">{item}</p>
@@ -76,11 +76,11 @@ export default function Hero() {
           <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
             <div className="surface p-3">
               <p className="text-slate-400">Backend</p>
-              <p className="mt-1 font-semibold text-white">Python + SQL</p>
+              <p className="mt-1 font-semibold text-white">Django + PostgreSQL</p>
             </div>
             <div className="surface p-3">
               <p className="text-slate-400">Foco</p>
-              <p className="mt-1 font-semibold text-white">Acesso institucional</p>
+              <p className="mt-1 font-semibold text-white">Saúde Digital</p>
             </div>
           </div>
         </div>

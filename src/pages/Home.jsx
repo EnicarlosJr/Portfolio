@@ -19,8 +19,8 @@ export default function Home() {
 
       {/* Case Principal: Farmacia Escola */}
       <section className="space-y-5">
-        <SectionHeader kicker="Case principal" title="Sistema Web Farmacia Escola">
-          Projeto real de saude digital com Django, PostgreSQL e indicadores operacionais. Experiencia de problema real em ambiente academico.
+        <SectionHeader kicker="Case principal" title="Sistema Web Farmacia Escola: Do zero ao impacto real">
+          Projeto que mostra capacidade de transformar problema operacional em solução técnica escalável. Django, PostgreSQL, dados reais, indicadores.
         </SectionHeader>
         
         <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
@@ -79,8 +79,8 @@ export default function Home() {
 
       {/* Outros projetos como complemento */}
       <section className="space-y-5">
-        <SectionHeader kicker="Outros projetos" title="Explorando diferentes contextos">
-          Projetos complementares que reforçam stack e autonomia em diferentes tipos de aplicacoes.
+        <SectionHeader kicker="Outros projetos" title="Competência confirmada em múltiplos contextos">
+          Além da Farmácia Escola, dois projetos que demonstram versatilidade: portal institucional com autenticação robusta e CMS operacional.
         </SectionHeader>
         <div className="grid gap-4 md:grid-cols-2">
           {otherProjects.map((project) => (
@@ -91,9 +91,8 @@ export default function Home() {
 
       {/* Recruiter signals e contexto rapido */}
       <section className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
-        <SectionHeader kicker="Leitura em 30 segundos" title="O que o recrutador deve entender rapido">
-          Perfil junior com experiencia aplicada, boa aderencia a Python/Django e um projeto principal com problema real.
-          O portfolio agora mostra evidencia, contexto e proximos passos tecnicos.
+        <SectionHeader kicker="Por que contratar" title="4 razões para considerar seriamente">
+          Full Stack Junior com track record real: experiência em saúde digital, stack profissional, mentalidade de produto e capacidade de evoluir em ambiente corporativo.
         </SectionHeader>
         <div className="grid gap-3">
           {recruiterSignals.map((signal) => (
@@ -104,8 +103,8 @@ export default function Home() {
 
       {/* Stack */}
       <section className="space-y-5">
-        <SectionHeader kicker="Stack alvo" title="Competencias posicionadas para 2026">
-          Menos lista solta de tecnologias, mais agrupamento por valor para empresas: backend, produto, dados e entrega.
+        <SectionHeader kicker="Stack profissional" title="Tecnologias que domino e entendo bem">
+          Agrupadas por valor: Backend (Django/Python), Frontend (React/JavaScript), Dados (PostgreSQL/Modelagem), Entrega (Git/Agile). Cada uma com projetos reais que comprovam.
         </SectionHeader>
         <div className="grid gap-3 sm:grid-cols-2">
           {stackGroups.map((group) => (

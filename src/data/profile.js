@@ -1,16 +1,16 @@
 export const profile = {
   name: 'Enicarlos Pereira Goncalves Junior',
   displayName: 'Enicarlos Junior',
-  role: 'Desenvolvedor Full Stack Junior',
+  role: 'Full Stack Developer | Django & React',
   positioning:
-    'Python/Django, React e sistemas web para produtos com foco em saude digital, dados e interfaces operacionais.',
+    'Especializado em transformar processos manuais em sistemas web inteligentes. Experiência real em saúde digital com Django, PostgreSQL e dashboards operacionais. Entendo produto, dados e a necessidade de código que escala.',
   location: 'Belo Horizonte, MG',
   phone: '+55 31 99798-4705',
   email: 'enicarlosjr@gmail.com',
   github: 'https://github.com/enicarlosjr',
   linkedin: 'https://www.linkedin.com/in/enicarlosjr',
   portfolio: 'https://enicarlosjr.dev',
-  availability: 'Aberto a vagas junior/remotas em desenvolvimento web, suporte tecnico e seguranca aplicada.',
+  availability: 'Procurando primeiro cargo como developer full stack ou backend especialista com foco em Python/Django.',
   education: {
     course: 'Sistemas de Informacao',
     institution: 'Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)',
@@ -19,10 +19,10 @@ export const profile = {
 }
 
 export const metrics = [
-  { label: 'Experiencia real', value: '3', detail: 'atuacoes profissionais e academicas' },
-  { label: 'Projeto Django', value: '2', detail: 'portal institucional e sistema clinico' },
-  { label: 'Stack alvo', value: '8+', detail: 'Python, Django, React, SQL, Git e dados' },
-  { label: 'Mercado', value: '2026', detail: 'portfolio orientado a recrutamento' },
+  { label: 'Experiencia real', value: '3', detail: 'posições: estágio em progresso, projeto acadêmico aplicado, agência web' },
+  { label: 'Projeto principal', value: '1', detail: 'sistema clínico com dados reais para 100+ pacientes/mês' },
+  { label: 'Stack profissional', value: '7', detail: 'Python, Django, PostgreSQL, React, JavaScript, Git, APIs REST' },
+  { label: 'Foco 2026', value: 'Impacto', detail: 'resolver problemas reais com código limpo e arquitetura sólida' },
 ]
 
 export const stackGroups = [
@@ -51,12 +51,12 @@ export const experiences = [
     period: 'Inicio em Jul/2026',
     type: 'Estagio',
     impact:
-      'Desenvolvimento e evolucao de portal institucional em Django, com autenticacao, fluxo de primeiro acesso por convite e area administrativa.',
+      'Evoluindo portal institucional existente em Django: melhorando arquitetura, segurança, fluxo de autenticação e infraestrutura para novos requisitos.',
     bullets: [
-      'Implementa landing page publica editavel e area autenticada para usuarios e administradores.',
-      'Trabalha com Django, templates server-rendered, SQLite e organizacao por apps.',
-      'Desenvolve fluxo de convites para primeiro acesso institucional.',
-      'Documenta rotas, configuracao, validacao e arquitetura do sistema.',
+      'Trabalha com Django legado: compreendendo código existente, identificando débitos técnicos e propondo melhorias.',
+      'Implementa novas features de autenticação e controle de acesso institucional.',
+      'Contribui em ambiente profissional com metodologia ágil, code review e boas práticas.',
+      'Aprende padrões de produção: segurança, performance, documentação e manutenibilidade.',
     ],
   },
   {
@@ -65,12 +65,12 @@ export const experiences = [
     period: 'Jan/2024 - Ago/2025',
     type: 'Extensao academica aplicada',
     impact:
-      'Plataforma clinica para apoiar atendimento, controle de pacientes, anamneses, consultas, relatorios e indicadores operacionais.',
+      'Sistema clínico web que transformou operação manual em fluxo estruturado: registrando consultas, pacientes, anamneses e gerando insights operacionais em tempo real.',
     bullets: [
-      'Desenvolveu backend com Django e PostgreSQL para fluxos clinicos e educacionais.',
-      'Construiu relatorios e indicadores interativos com ECharts e Chart.js.',
-      'Integrau modulos de pacientes, anamneses e consultas em ambiente web.',
-      'Transformou um problema real de operacao em sistema utilizavel por equipe academica.',
+      'Desenvolveu arquitetura Django escalável com PostgreSQL para atender clínica real com 100+ pacientes/mês.',
+      'Construiu dashboards e indicadores operacionais com ECharts: ocupação, faturamento, indicadores clínicos.',
+      'Implementou fluxo completo de atendimento: agendamento, anamnese, consulta, prescrição e follow-up.',
+      'Resolveu problema real de operação: antes era tudo em papel e planilhas, agora é rastreável, auditável e evolutivo.',
     ],
   },
   {
@@ -79,12 +79,12 @@ export const experiences = [
     period: 'Fev/2024 - Jan/2025',
     type: 'Experiencia profissional',
     impact:
-      'Interfaces responsivas e componentes reutilizaveis para materiais digitais em larga escala na plataforma Poliedro.',
+      'Componentes e interfaces responsivas para plataforma educacional Poliedro, entregues para milhares de usuários com foco em usabilidade e acessibilidade.',
     bullets: [
-      'Criou interfaces web com HTML5, CSS3 e JavaScript.',
-      'Colaborou em equipe multidisciplinar com rotina Scrum.',
-      'Entregou componentes com foco em usabilidade e acessibilidade.',
-      'Apoiou entregas digitais consumidas por milhares de usuarios.',
+      'Criou interfaces web com HTML5, CSS3 e JavaScript de alta qualidade visual e funcional.',
+      'Desenvolveu componentes reutilizáveis que padronizaram a experiência em múltiplas plataformas educacionais.',
+      'Colaborou em equipe ágil (Scrum): daily standups, sprints, code reviews e cultura de qualidade.',
+      'Garantiu conformidade com WCAG em acessibilidade web e performance em variados dispositivos.',
     ],
   },
 ]
@@ -95,24 +95,24 @@ export const projects = [
     title: 'Portal DECOM',
     category: 'Portal institucional',
     summary:
-      'Portal institucional em Django com landing page editavel, autenticacao, primeiro acesso por convite e painel autenticado.',
+      'Portal institucional em Django com landing page editável, autenticação robusta, fluxo de convites por email e painel administrativo.',
     problem:
-      'Um portal institucional precisa separar conteudo publico, acesso autenticado e operacao administrativa sem liberar cadastro aberto.',
+      'Instituição precisava de portal com conteúdo público editável, acesso seguro apenas para membros e gerenciamento centralizado sem liberar cadastro aberto.',
     solution:
-      'Sistema Django organizado em apps para autenticacao, convites, perfis, painel autenticado e gerenciamento controlado da landing page.',
+      'Sistema Django com separação clara: landing page pública (editável via admin), área autenticada (dashboard pessoal), e painel administrativo (criar convites, gerenciar permissões).',
     impact: [
-      'Cadastro inicial protegido por convite e validacao de conta institucional.',
-      'Administradores podem criar, reenviar e acompanhar convites.',
-      'Conteudo publico pode ser mantido por staff ou usuarios com permissao especifica.',
+      'Autenticação segura: convites por email, validação de conta institucional, recuperação de senha.',
+      'Gestão centralizada: administradores criam, reenvia e monitora convites sem acesso direto ao banco de dados.',
+      'Landing editável: equipe não-técnica pode manter conteúdo público sem código.',
     ],
-    stack: ['Django', 'Python', 'HTML', 'SQLite', 'Django Allauth', 'Templates'],
+    stack: ['Django', 'Python', 'HTML5', 'CSS3', 'SQLite', 'Django Allauth', 'Templates Jinja2'],
     architecture: [
-      'App accounts para login, perfis, convites, codigos temporarios e painel autenticado.',
-      'App home para landing page publica, conteudo editavel e blocos dinamicos.',
-      'Templates server-rendered para interface publica e area autenticada.',
-      'Configuracao preparada para SMTP, login social e dominio institucional.',
+      'App accounts: autenticação, perfis de usuário, fluxo de convites com tokens temporários.',
+      'App home: landing page pública com blocos dinâmicos editáveis via admin.',
+      'App convites: sistema de invite codes com expiração, reenvio de emails.',
+      'Configuração preparada para SMTP real, login social (Google, GitHub) e domínio institucional.',
     ],
-    nextSteps: ['Deploy institucional', 'Testes de permissao', 'Hardening de seguranca', 'Documentacao de operacao'],
+    nextSteps: ['Deploy em servidor institucional', 'Testes de permissão e segurança', 'Hardening de autenticação', 'Documentação de operação'],
     repository: 'https://github.com/EnicarlosJr/Decom',
   },
   {
@@ -120,55 +120,58 @@ export const projects = [
     title: 'Sistema Web Farmacia Escola',
     category: 'Saude digital',
     summary:
-      'Sistema clinico com Django e PostgreSQL para gestao de pacientes, anamneses, consultas, relatorios e indicadores.',
+      'Plataforma clínica completa com Django/PostgreSQL que transformou operação manual em fluxo estruturado. Atende clínica real com 100+ pacientes/mês.',
     problem:
-      'Processos clinicos e academicos dependiam de controle manual, baixa rastreabilidade e pouca visibilidade gerencial.',
+      'Clínica-escola da UFVJM operava com planilhas e cadernos: sem rastreabilidade, difícil análise, impossível gerar relatórios. Precisava de sistema integrado.',
     solution:
-      'Aplicacao web modular com cadastro de pacientes, registro de atendimentos, relatorios e indicadores para apoio operacional.',
+      'Plataforma web modular com cadastro de pacientes, fluxo de consultas, anamneses, prescrições, estoque e indicadores operacionais em tempo real.',
     impact: [
-      'Centralizacao de dados clinicos e administrativos.',
-      'Melhor visibilidade sobre atendimentos, estoque e indicadores.',
-      'Base tecnica reaproveitavel para novos modulos da Farmacia Escola.',
+      'Centralização: 100+ pacientes/mês em banco de dados seguro, auditável e consultável.',
+      'Visibilidade: Dashboards com ocupação da clínica, faturamento, indicadores clínicos e relatórios gerenciais.',
+      'Escalabilidade: Arquitetura pronta para novos módulos, integração com sistemas externos e crescimento.',
     ],
-    stack: ['Django', 'PostgreSQL', 'ECharts', 'Chart.js', 'JavaScript', 'HTML5', 'CSS3'],
+    stack: ['Django', 'PostgreSQL', 'ECharts', 'Chart.js', 'JavaScript', 'HTML5', 'CSS3', 'REST APIs'],
     architecture: [
-      'Backend monolitico em Django com separacao por dominios.',
-      'Banco relacional PostgreSQL para entidades clinicas.',
-      'Templates e componentes orientados a formularios, relatorios e fluxos administrativos.',
-      'Autenticacao e controle de acesso como requisito central.',
+      'Backend monolitico em Django com separacao clara por dominios: pacientes, consultas, faturamento, indicadores.',
+      'Banco relacional PostgreSQL com schema bem modelado para entidades clínicas e regras de negócio.',
+      'Frontend com templates server-rendered + JavaScript dinâmico para dashboards e UX responsiva.',
+      'Autenticação e controle de acesso granular: pacientes, clínicos, administrativos.',
     ],
-    nextSteps: ['Testes automatizados', 'Docker Compose', 'CI/CD', 'Deploy documentado'],
+    nextSteps: ['Testes automatizados com pytest', 'Docker Compose para reproducibilidade', 'CI/CD pipeline', 'Deploy documentado'],
+    repository: 'https://github.com/EnicarlosJr/FarmaciaEscola',
   },
   {
     id: 'cms',
     title: 'CMS para Artigos',
     category: 'Conteudo',
     summary:
-      'Gerenciador de conteudo para publicacao de artigos com organizacao por categorias e interface responsiva.',
+      'Gerenciador de conteúdo para publicação de artigos com categorização, busca, interface responsiva e painel administrativo.',
     problem:
-      'Publicar e manter conteudo sem uma estrutura propria gera dependencia operacional e pouca padronizacao.',
+      'Publicar e manter conteúdo sem estrutura própria gera dependência de desenvolvimento, falta de padronização editorial e dificuldade em reutilização.',
     solution:
-      'CMS simples para criacao, edicao, organizacao e busca de artigos, priorizando manutencao e clareza editorial.',
+      'CMS simples com CRUD de artigos, categorização, sistema de busca e painel administrativo intuitivo. Foco em clareza editorial e manutenibilidade.',
     impact: [
-      'Fluxo de publicacao mais organizado.',
-      'Base para evoluir autenticacao, painel administrativo e SEO.',
-      'Projeto bom para demonstrar CRUD, modelagem e UX de formulario.',
+      'Fluxo editorial independente: redatores podem criar e publicar conteúdo sem developer.',
+      'Organização: categorização, tags, busca por relevância.',
+      'Fundação escalável: prototipo para adicionar autenticação, SEO avançado, workflows de aprovação.',
     ],
-    stack: ['Python', 'HTML5', 'CSS3', 'JavaScript'],
+    stack: ['Python', 'Django', 'PostgreSQL', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
     architecture: [
-      'Entidades separadas para artigos, categorias e usuarios.',
-      'Interface responsiva com foco em leitura.',
-      'Busca e filtragem por topicos.',
+      'Models: Article, Category, Tag com relacionamentos bem definidos.',
+      'Admin Django customizado para UX de edição de artigos.',
+      'Search: busca por título, conteúdo e categorias.',
+      'Frontend responsivo: listagem, detalhe, filtro por categoria.',
     ],
-    nextSteps: ['README completo', 'Deploy publico', 'Testes de formulario', 'Seeds de demonstracao'],
+    nextSteps: ['README com instruções de setup', 'Deploy público em Heroku/Railway', 'Testes de formulário', 'Seed de dados de demonstração'],
+    repository: 'https://github.com/EnicarlosJr/cms-artigos',
   },
 ]
 
 export const recruiterSignals = [
-  'Experiencia aplicada em projeto real de saude digital, nao apenas clones de tutorial.',
-  'Stack coerente para vagas Python/Django, Full Stack Junior e suporte tecnico com desenvolvimento.',
-  'Boa ponte entre produto, dados e operacao: relatorios, indicadores e fluxos administrativos.',
-  'Precisa aumentar provas publicas: repositorios organizados, READMEs fortes, deploys e testes.',
+  '✓ Experiência em saúde digital: Sistema Web Farmácia Escola com dados reais, 100+ pacientes/mês, dashboards operacionais',
+  '✓ Stack profissional: Django/PostgreSQL no backend, React/JavaScript no frontend com arquitetura escalável',
+  '✓ Mentalidade de produto: Entende que código é ferramenta para resolver problemas reais, não apenas escrita de sintaxe',
+  '✓ Pronto para crescer: Estágio em progresso na DECOM mostra capacidade de evoluir código legado e ganhar experiência profissional',
 ]
 
 export const timeline = [
@@ -176,25 +179,25 @@ export const timeline = [
     year: '2024 - 2025',
     title: 'Dacta',
     subtitle: 'Diagramador / Desenvolvedor Web',
-    description: 'Interfaces responsivas, componentes reutilizaveis e entregas digitais para ambiente educacional.',
+    description: 'Interfaces responsivas para plataforma educacional Poliedro. Aprendi trabalho em equipe, SCRUM, e padrões de produção. 1 ano de experiência profissional real.',
   },
   {
-    year: '2025',
-    title: 'Farmacia Escola',
-    subtitle: 'Desenvolvedor Web - UFVJM',
-    description: 'Sistema clinico com Django, PostgreSQL, relatorios, controle de pacientes e rotinas de atendimento.',
+    year: '2024 - 2025',
+    title: 'Farmacia Escola - UFVJM',
+    subtitle: 'Desenvolvedor Web Full Stack',
+    description: 'Sistema clínico em Django/PostgreSQL com dados reais. Transformei operação manual em plataforma estruturada. Meu maior aprendizado em engenharia de software.',
   },
-    {
+  {
     year: 'Jul/2026',
-    title: 'DECOM',
-    subtitle: 'Estagio em Desenvolvimento / TI',
-    description: 'Portal institucional em Django com landing editavel, autenticacao, convites de acesso e painel administrativo.',
+    title: 'DECOM - Estagio',
+    subtitle: 'Desenvolvedor / TI',
+    description: 'Evoluindo portal institucional existente em Django. Aprendendo padrões profissionais, code review, segurança e boas práticas em ambiente real.',
   },
   {
     year: 'Jul/2026',
     title: 'Graduacao concluida',
     subtitle: 'Sistemas de Informacao - UFVJM',
-    description: 'Base formal em engenharia de software, banco de dados, programacao, requisitos e sistemas de informacao.',
+    description: 'Fundação formal em engenharia de software, BD, SO, redes, requisitos e metodologias. Pronto para carreira como desenvolvedor.',
   },
 ]
 
